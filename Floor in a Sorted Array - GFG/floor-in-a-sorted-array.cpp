@@ -21,7 +21,7 @@ class Solution{
                else if(arr[mid]>k){
                    hi=mid-1;
                }
-               else{
+               else if(arr[mid]<k){
                    lo=mid+1;
                    result=mid;
                }
